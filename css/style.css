@@ -18,11 +18,12 @@ body{
 #heading{
   text-align: center;
   text-decoration: solid;
+  font-family:'Franklin Gothic Medium';
 }
 
 .wrapper{
   width: 500px;
-  padding: 30px;
+  padding: 40px;
   border-radius: 7px;
   background: beige;
  
@@ -40,11 +41,13 @@ form :where(input, select, button){
 }
 
 form p{
+  font-family: 'Times New Roman', Times, serif;
   font-size: 18px;
   margin-bottom: 5px;
 }
 
 form input{
+  font-family: 'Times New Roman', Times, serif;
   height: 50px;
   font-size: 17px;
   padding: 0 15px;
@@ -69,12 +72,13 @@ form .drop-list{
 }
 
 .select-box img{
-  max-width: 35px;
+  max-width: 30px;
 }
 
 .select-box select{
   width: auto;
-  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
   background: none;
   margin: 0 -5px 0 5px;
 }
@@ -96,6 +100,7 @@ form .drop-list{
   font-size: 22px;
 }
 form .exchange-rate{
+  font-family: monospace;
   font-size: 17px;
   margin: 20px 0 30px;
 }
@@ -105,7 +110,7 @@ form button{
   font-size: 17px;
   cursor: pointer;
   background: midnightblue;
-  transition: 0.3s ease;
+  transition: 0.4s ease;
 }
 form button:hover{
   background: blue;
