@@ -1,0 +1,108 @@
+/* Import Google Font - Poppins */
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vb;
+  padding: 0 10px;
+  background-color: midnightblue
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.wrapper{
+  width: 500px;
+  padding: 30px;
+  border-radius: 7px;
+  background: beige;
+ 
+}
+
+.wrapper form{
+  margin: 40px 0 20px 0;
+}
+
+form :where(input, select, button){
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+}
+
+form p{
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+form input{
+  height: 50px;
+  font-size: 17px;
+  padding: 0 15px;
+  border: 1px solid black;
+}
+
+form .drop-list{
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.drop-list .select-box{
+  display: flex;
+  width: 180px;
+  height: 45px;
+  align-items: center;
+  border-radius: 5px;
+  justify-content: center;
+  border: 1px solid black;
+}
+
+.select-box img{
+  max-width: 35px;
+}
+
+.select-box select{
+  width: auto;
+  font-size: 16px;
+  background: none;
+  margin: 0 -5px 0 5px;
+}
+
+.select-box select::-webkit-scrollbar{
+  width: 5px;
+}
+.select-box select::-webkit-scrollbar-track{
+  background: beige;
+}
+.select-box select::-webkit-scrollbar-thumb{
+  background: gray;
+  border-radius: 8px;
+  border-right: 2px solid white;
+}
+.drop-list .icon{
+  cursor:pointer;
+  margin-top: 30px;
+  font-size: 22px;
+}
+form .exchange-rate{
+  font-size: 17px;
+  margin: 20px 0 30px;
+}
+form button{
+  height: 52px;
+  color: beige;
+  font-size: 17px;
+  cursor: pointer;
+  background: midnightblue;
+  transition: 0.3s ease;
+}
+/* form button:hover{
+  background: blue;
+} */
