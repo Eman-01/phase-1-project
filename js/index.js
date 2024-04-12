@@ -35,7 +35,7 @@ for (let i = 0; i < dropList.length; i++) {
 
 function loadFlag(element){
     for(let code in country_list){
-        if(code == element.value){
+        if(code === element.value){
             let imgTag = element.parentElement.querySelector("img");
             imgTag.src = `https://flagcdn.com/48x36/${country_list[code].toLowerCase()}.png`;
         }
