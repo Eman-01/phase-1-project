@@ -79,12 +79,12 @@ form .drop-list{
   width: auto;
   font-family: 'Times New Roman', Times, serif;
   font-size: 20px;
-  background: none;
+  background: scroll;
   margin: 0 -5px 0 5px;
 }
 
 .select-box select::-webkit-scrollbar{
-  width: 5px;
+  width: 10px;
 }
 .select-box select::-webkit-scrollbar-track{
   background: beige;
